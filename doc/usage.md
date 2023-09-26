@@ -66,6 +66,10 @@ roslaunch z1_bringup sim_ctrl.launch
 
 ### z1_sdk
 
+Install rosrun
+```bash
+sudo apt install ros-noetic-rosbash
+```
 Both cpp and python examples are provided here.
 
 ```bash
