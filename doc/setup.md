@@ -70,6 +70,8 @@ cd ..
 rosdep install --from-paths src --ignore-src -yr --rosdistro noetic
 # compile unitree_legged_msgs first
 catkin_make --pkg unitree_legged_msgs
+# on mac cd ~/z1_ws/src/z1_ros/unitree_ros/unitree_legged_control
+# then rename the arm.so to .so
 catkin_make
 source devel/setup.bash
 ```
